@@ -7,7 +7,7 @@ Image converted form [this repository](https://github.com/GAIA-UNIL/trainingimag
 ```
 ti=imread('https://raw.githubusercontent.com/GAIA-UNIL/TrainingImagesTIFF/master/{fileName.tiff}')
 ``` 
-Remplacing ```{fileName.tiff}``` with the file of interest. 
+Replacing ```{fileName.tiff}``` with the file of interest. 
 
 ## To load training images in Python3
 
@@ -19,4 +19,4 @@ from io import BytesIO
 
 ti = numpy.array(Image.open(BytesIO(requests.get('https://raw.githubusercontent.com/GAIA-UNIL/TrainingImagesTIFF/master/{fileName.tiff}').content)));
 ```
-Remplacing ```{fileName.tiff}``` with the file of interest.
+Replacing ```{fileName.tiff}``` with the file of interest.
