@@ -1,6 +1,6 @@
 # TrainingImagesTIFF
-Tiff version of various training images used in the literature. Useful for direct used in example codes.
-Image converted form [this repository](https://github.com/GAIA-UNIL/trainingimages)
+Tiff version of various training images used in the literature. Useful for direct use in example codes.
+Image converted from [this repository](https://github.com/GAIA-UNIL/trainingimages)
 
 ## To load training images in Matlab
 
