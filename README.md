@@ -17,6 +17,11 @@ from PIL import Image
 import requests
 from io import BytesIO
 
-ti = numpy.array(Image.open(BytesIO(requests.get('https://raw.githubusercontent.com/GAIA-UNIL/TrainingImagesTIFF/master/{fileName.tiff}').content)));
+ti = numpy.array(Image.open(BytesIO(requests.get('https://raw.githubusercontent.com/GAIA-UNIL/TrainingImagesTIFF/master/{fileName.tiff}').content)))
+
+#This might not work for 'Damier3D','L7_CHplateau' and 'zinn', instead try
+#import tifffile
+#ti = tifffile.imread(BytesIO(requests.get('https://raw.githubusercontent.com/GAIA-UNIL/TrainingImagesTIFF/master/{fileName.tiff}').content));;
 ```
 Replacing ```{fileName.tiff}``` with the file of interest.
+
